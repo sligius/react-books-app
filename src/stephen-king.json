@@ -1,0 +1,214 @@
+[
+  {
+    "name": "The Shining",
+    "image": "https://assets.blogs.bsu.edu/wp-content/uploads/sites/25/2020/03/09153737/shining-683x1024.jpg"
+  },
+  {
+    "name": "Carrie",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Carrie_%281974%29_front_cover%2C_first_edition.jpg"
+  },
+  {
+    "name": "Rage",
+    "image": "https://i0.wp.com/www.stephenkingrevisited.com/wp-content/uploads/2014/12/rage.jpg"
+  },
+  {
+    "name": "It",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/It_%281986%29_front_cover%2C_first_edition.jpg"
+  },
+  {
+    "name": "Misery",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/14/Misery_%281987%29_front_cover%2C_first_edition.jpg"
+  },
+  {
+    "name": "Pet Sematary",
+    "image": "https://www.dymocks.com.au/Pages/ImageHandler.ashx?q=9781444708134&w=&h=570"
+  },
+  {
+    "name": "Salem's Lot",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/%27Salem%27s_Lot_%281975%29_front_cover%2C_first_edition.jpg"
+  },
+  {
+    "name": "The Stand",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/52/The_Stand_%281978%29_front_cover%2C_first_edition.png"
+  },
+  {
+    "name": "Cujo",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Cujo_%281981%29_front_cover%2C_first_edition.jpg/1200px-Cujo_%281981%29_front_cover%2C_first_edition.jpg"
+  },
+  {
+    "name": "The Green Mile",
+    "image": "https://img3.labirint.ru/rc/5b8cbc76b55518e1237d0ed1f0d9046c/363x561q80/books97/967609/cover.jpg?1699971904"
+  },
+  {
+    "name": "The Dark Tower: The Gunslinger",
+    "image": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781501182105/the-dark-tower-i-9781501182105_hr.jpg"
+  },
+  {
+    "name": "Doctor Sleep",
+    "image": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781982131807/doctor-sleep-9781982131807_hr.jpg"
+  },
+  {
+    "name": "The Outsider",
+    "image": "https://m.media-amazon.com/images/I/91YVPs88hjL._AC_UF1000,1000_QL80_DpWeblab_.jpg"
+  },
+  {
+    "name": "11/22/63",
+    "image": "https://m.media-amazon.com/images/I/717e5mrJz+L._AC_UF1000,1000_QL80_DpWeblab_.jpg"
+  },
+  {
+    "name": "Under the Dome",
+    "image": "https://example.com/under_the_dome.jpg"
+  },
+  {
+    "name": "The Talisman",
+    "image": "https://example.com/the_talisman.jpg"
+  },
+  {
+    "name": "The Dead Zone",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7e/The_Dead_Zone_%281979%29_front_cover%2C_first_edition.jpg"
+  },
+  {
+    "name": "Firestarter",
+    "image": "https://m.media-amazon.com/images/I/81iQduDzKUL._AC_UF1000,1000_QL80_.jpg"
+  },
+  {
+    "name": "Christine",
+    "image": "https://example.com/christine.jpg"
+  },
+  {
+    "name": "The Tommyknockers",
+    "image": "https://example.com/the_tommyknockers.jpg"
+  },
+  {
+    "name": "Insomnia",
+    "image": "https://example.com/insomnia.jpg"
+  },
+  {
+    "name": "Rose Madder",
+    "image": "https://example.com/rose_madder.jpg"
+  },
+  {
+    "name": "Desperation",
+    "image": "https://example.com/desperation.jpg"
+  },
+  {
+    "name": "The Regulators",
+    "image": "https://example.com/the_regulators.jpg"
+  },
+  {
+    "name": "The Drawing of the Three",
+    "image": "https://example.com/the_drawing_of_the_three.jpg"
+  },
+  {
+    "name": "The Waste Lands",
+    "image": "https://example.com/the_waste_lands.jpg"
+  },
+  {
+    "name": "Wizard and Glass",
+    "image": "https://example.com/wizard_and_glass.jpg"
+  },
+  {
+    "name": "Wolves of the Calla",
+    "image": "https://example.com/wolves_of_the_calla.jpg"
+  },
+  {
+    "name": "Song of Susannah",
+    "image": "https://example.com/song_of_susannah.jpg"
+  },
+  {
+    "name": "The Dark Tower VII",
+    "image": "https://example.com/the_dark_tower_vii.jpg"
+  },
+  {
+    "name": "The Dark Tower: The Wind Through the Keyhole",
+    "image": "https://example.com/the_wind_through_the_keyhole.jpg"
+  },
+  {
+    "name": "The Girl Who Loved Tom Gordon",
+    "image": "https://example.com/the_girl_who_loved_tom_gordon.jpg"
+  },
+  {
+    "name": "Dolores Claiborne",
+    "image": "https://example.com/dolores_claiborne.jpg"
+  },
+  {
+    "name": "Lisey's Story",
+    "image": "https://example.com/liseys_story.jpg"
+  },
+  {
+    "name": "Cell",
+    "image": "https://example.com/cell.jpg"
+  },
+  {
+    "name": "From a Buick 8",
+    "image": "https://example.com/from_a_buick_8.jpg"
+  },
+  {
+    "name": "Blaze",
+    "image": "https://example.com/blaze.jpg"
+  },
+  {
+    "name": "Duma Key",
+    "image": "https://example.com/duma_key.jpg"
+  },
+  {
+    "name": "Under the Dome",
+    "image": "https://example.com/under_the_dome.jpg"
+  },
+  {
+    "name": "Revival",
+    "image": "https://example.com/revival.jpg"
+  },
+  {
+    "name": "Finders Keepers",
+    "image": "https://example.com/finders_keepers.jpg"
+  },
+  {
+    "name": "End of Watch",
+    "image": "https://example.com/end_of_watch.jpg"
+  },
+  {
+    "name": "Sleeping Beauties",
+    "image": "https://example.com/sleeping_beauties.jpg"
+  },
+  {
+    "name": "The Institute",
+    "image": "https://example.com/the_institute.jpg"
+  },
+  {
+    "name": "If It Bleeds",
+    "image": "https://example.com/if_it_bleeds.jpg"
+  },
+  {
+    "name": "Mr. Mercedes",
+    "image": "https://example.com/mr_mercedes.jpg"
+  },
+  {
+    "name": "The Outsider",
+    "image": "https://example.com/the_outsider.jpg"
+  },
+  {
+    "name": "Elevation",
+    "image": "https://example.com/elevation.jpg"
+  },
+  {
+    "name": "The Colorado Kid",
+    "image": "https://example.com/the_colorado_kid.jpg"
+  },
+  {
+    "name": "Joyland",
+    "image": "https://example.com/joyland.jpg"
+  },
+  {
+    "name": "The Long Walk",
+    "image": "https://www.logobook.ru/make_nimage.php?uid=12927134"
+  },
+  {
+    "name": "Roadwork",
+    "image": "https://i0.wp.com/www.stephenkingrevisited.com/wp-content/uploads/2015/07/roadwork.jpg?fit=719%2C1200"
+  },
+  {
+    "name": "The Running Man",
+    "image": "https://example.com/the_running_man.jpg"
+  }
+]
