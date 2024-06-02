@@ -45,7 +45,7 @@ function KingBooks() {
     };
     console.log(books);
     fetchBooks();
-  });
+  }, []);
 
   /* настройка фильтрации */
   const uniqueYears = [...new Set(books.map((book) => book.Year))];
