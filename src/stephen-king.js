@@ -11,7 +11,7 @@ import {
 } from "react-bootstrap";
 
 import kingBooksData from "./stephen-king.json";
-import { Box, Slider, Typography } from "@mui/material";
+import { Box, Slider } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 
@@ -57,7 +57,7 @@ function KingBooks() {
     };
     console.log(books);
     fetchBooks();
-  }, []);
+  }, [books]);
 
   const uniquePublishers = [...new Set(books.map((book) => book.Publisher))];
 
