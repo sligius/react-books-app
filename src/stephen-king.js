@@ -24,7 +24,7 @@ function KingBooks() {
     const fetchBooks = async () => {
       try {
         const response = await fetch(
-          "https://cors-anywhere.herokuapp.com/https://stephen-king-api.onrender.com/api/books"
+          "https://stephen-king-api.onrender.com/api/books"
         );
         if (!response.ok) {
           throw new Error("Network response was not ok");
@@ -55,7 +55,6 @@ function KingBooks() {
         console.error("Произошла ошибка:", error);
       }
     };
-    console.log(books);
     fetchBooks();
   }, [books]);
 

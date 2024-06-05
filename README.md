@@ -16,7 +16,7 @@
 
 Установить зависимости
 
-### `https://cors-anywhere.herokuapp.com/corsdemo`
+### `Allow CORS`
 
 Запустить прокси-сервер для корректного обращения к API
 
