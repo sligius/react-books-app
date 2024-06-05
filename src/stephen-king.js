@@ -111,6 +111,7 @@ function KingBooks() {
           type="text"
           placeholder="Search by title"
           className="mt-3 mb-3"
+          value={searchTerm}
           onChange={handleSearch}
         />
         {searchTerm && (
