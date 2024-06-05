@@ -57,11 +57,11 @@
   },
   {
     "name": "Under the Dome",
-    "image": "https://example.com/under_the_dome.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/en/0/09/Under_the_Dome_Final.jpg"
   },
   {
     "name": "The Talisman",
-    "image": "https://example.com/the_talisman.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/en/8/89/Talisman1983Cover.jpg"
   },
   {
     "name": "The Dead Zone",
@@ -73,131 +73,127 @@
   },
   {
     "name": "Christine",
-    "image": "https://example.com/christine.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/en/d/d3/StephenKing-Christine.jpg"
   },
   {
     "name": "The Tommyknockers",
-    "image": "https://example.com/the_tommyknockers.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/en/5/55/Tommyknockers.jpg"
   },
   {
     "name": "Insomnia",
-    "image": "https://example.com/insomnia.jpg"
+    "image": "https://m.media-amazon.com/images/I/91W-I1j1xxL._AC_UF1000,1000_QL80_.jpg"
   },
   {
     "name": "Rose Madder",
-    "image": "https://example.com/rose_madder.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/en/e/e8/RoseMadder.jpg"
   },
   {
     "name": "Desperation",
-    "image": "https://example.com/desperation.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6f/Desperationbook.jpg/200px-Desperationbook.jpg"
   },
   {
     "name": "The Regulators",
-    "image": "https://example.com/the_regulators.jpg"
+    "image": "https://m.media-amazon.com/images/I/51o6yj-VhaL.jpg"
   },
   {
-    "name": "The Drawing of the Three",
-    "image": "https://example.com/the_drawing_of_the_three.jpg"
+    "name": "The Dark Tower II: The Drawing of the Three",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3a/The_Drawing_of_the_Three.jpg/200px-The_Drawing_of_the_Three.jpg"
   },
   {
-    "name": "The Waste Lands",
-    "image": "https://example.com/the_waste_lands.jpg"
+    "name": "The Dark Tower III: The Waste Lands",
+    "image": "https://upload.wikimedia.org/wikipedia/en/4/49/The_Waste_Lands.jpg"
   },
   {
-    "name": "Wizard and Glass",
-    "image": "https://example.com/wizard_and_glass.jpg"
+    "name": "The Dark Tower IV: Wizard and Glass",
+    "image": "https://upload.wikimedia.org/wikipedia/en/7/7f/Wizard_and_Glass.jpg"
   },
   {
-    "name": "Wolves of the Calla",
-    "image": "https://example.com/wolves_of_the_calla.jpg"
+    "name": "The Dark Tower V: Wolves of the Calla",
+    "image": "https://upload.wikimedia.org/wikipedia/en/9/90/Wolvescalla.jpg"
   },
   {
-    "name": "Song of Susannah",
-    "image": "https://example.com/song_of_susannah.jpg"
+    "name": "The Dark Tower VI: Song of Susannah",
+    "image": "https://upload.wikimedia.org/wikipedia/en/4/42/Song_of_Susannah.jpg"
   },
   {
-    "name": "The Dark Tower VII",
-    "image": "https://example.com/the_dark_tower_vii.jpg"
+    "name": "The Dark Tower VII: The Dark Tower",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9BUcbE5NJEOZLQ5T_Owh-YMY7CZK-ohhdlA&s"
   },
   {
     "name": "The Dark Tower: The Wind Through the Keyhole",
-    "image": "https://example.com/the_wind_through_the_keyhole.jpg"
+    "image": "https://m.media-amazon.com/images/I/81sbfKKDmHL._AC_UF1000,1000_QL80_.jpg"
   },
   {
     "name": "The Girl Who Loved Tom Gordon",
-    "image": "https://example.com/the_girl_who_loved_tom_gordon.jpg"
+    "image": "https://m.media-amazon.com/images/I/71xaXPH7ZmL._AC_UF1000,1000_QL80_.jpg"
   },
   {
     "name": "Dolores Claiborne",
-    "image": "https://example.com/dolores_claiborne.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/DoloresClaiborneNovel.jpg/220px-DoloresClaiborneNovel.jpg"
   },
   {
     "name": "Lisey's Story",
-    "image": "https://example.com/liseys_story.jpg"
+    "image": "https://img3.labirint.ru/rc/96044ea5ad9fe101af559a920c95e6dc/363x561q80/books70/692571/cover.jpg?1564202222"
   },
   {
     "name": "Cell",
-    "image": "https://example.com/cell.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/en/0/0c/Cell_by_Stephen_King.jpg"
   },
   {
     "name": "From a Buick 8",
-    "image": "https://example.com/from_a_buick_8.jpg"
+    "image": "https://m.media-amazon.com/images/I/81PbzRnYgbL._AC_UF1000,1000_QL80_.jpg"
   },
   {
     "name": "Blaze",
-    "image": "https://example.com/blaze.jpg"
+    "image": "https://m.media-amazon.com/images/I/81BS2eN3XNL._AC_UF1000,1000_QL80_.jpg"
   },
   {
     "name": "Duma Key",
-    "image": "https://example.com/duma_key.jpg"
-  },
-  {
-    "name": "Under the Dome",
-    "image": "https://example.com/under_the_dome.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/en/0/02/Duma_Key.jpg"
   },
   {
     "name": "Revival",
-    "image": "https://example.com/revival.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/en/7/72/Revival_novel_cover.jpg"
   },
   {
     "name": "Finders Keepers",
-    "image": "https://example.com/finders_keepers.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/en/f/f4/Finders_Keepers_2015.jpg"
   },
   {
     "name": "End of Watch",
-    "image": "https://example.com/end_of_watch.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/en/9/90/End_of_Watch_cover.jpg"
   },
   {
     "name": "Sleeping Beauties",
-    "image": "https://example.com/sleeping_beauties.jpg"
+    "image": "https://img3.labirint.ru/rc/62fbd758503a61b122b5ed4f06d7bc1e/363x561q80/books69/688461/cover.jpg?1564199468"
   },
   {
     "name": "The Institute",
-    "image": "https://example.com/the_institute.jpg"
+    "image": "https://m.media-amazon.com/images/I/71s6siGLrFL._AC_UF1000,1000_QL80_.jpg"
   },
   {
     "name": "If It Bleeds",
-    "image": "https://example.com/if_it_bleeds.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/en/2/24/If_It_Bleeds_%28Stephen_King%29.png"
   },
   {
     "name": "Mr. Mercedes",
-    "image": "https://example.com/mr_mercedes.jpg"
+    "image": "https://m.media-amazon.com/images/I/91ejxgOhBJL._AC_UF1000,1000_QL80_.jpg"
   },
   {
     "name": "The Outsider",
-    "image": "https://example.com/the_outsider.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/en/e/e4/The_Outsider_by_Stephen_King.jpg"
   },
   {
     "name": "Elevation",
-    "image": "https://example.com/elevation.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/en/b/bf/Elevation_%28novel%29.jpg"
   },
   {
     "name": "The Colorado Kid",
-    "image": "https://example.com/the_colorado_kid.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7c/Coloradokid_pb.jpg/220px-Coloradokid_pb.jpg"
   },
   {
     "name": "Joyland",
-    "image": "https://example.com/joyland.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/en/b/b1/Joyland.jpg"
   },
   {
     "name": "The Long Walk",
@@ -208,7 +204,55 @@
     "image": "https://i0.wp.com/www.stephenkingrevisited.com/wp-content/uploads/2015/07/roadwork.jpg?fit=719%2C1200"
   },
   {
+    "name": "Later",
+    "image": "https://m.media-amazon.com/images/I/81EkmsU-OoL._AC_UF1000,1000_QL80_.jpg"
+  },
+  {
+    "name": "Billy Summers",
+    "image": "https://z-lib.io/images/16800000/16813604.webp"
+  },
+  {
+    "name": "Gwendy's Button Box",
+    "image": "https://upload.wikimedia.org/wikipedia/en/5/50/Gwendys-button-box-cover-high-res.jpg"
+  },
+  {
+    "name": "Dreamcatcher",
+    "image": "https://upload.wikimedia.org/wikipedia/en/7/7e/Dreamcatchernovel.jpg"
+  },
+  {
+    "name": "Bag of Bones",
+    "image": "https://upload.wikimedia.org/wikipedia/en/d/d7/Bagofbones.gif"
+  },
+  {
+    "name": "Gerald's Game",
+    "image": "https://upload.wikimedia.org/wikipedia/en/b/b4/GeraldsGame.jpg"
+  },
+  {
+    "name": "Needful Things",
+    "image": "https://upload.wikimedia.org/wikipedia/en/e/e7/NeedfulThingsBookCover.JPG"
+  },
+  {
+    "name": "The Stand Uncut",
+    "image": "https://www.isfdb.org/wiki/images/f/f4/BKTG08105.jpg"
+  },
+  {
+    "name": "The Dark Half",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/Darkhalf.jpg/200px-Darkhalf.jpg"
+  },
+  {
+    "name": "The Eyes of the Dragon",
+    "image": "https://upload.wikimedia.org/wikipedia/en/0/0b/Eyesofthedragon.jpg"
+  },
+  {
+    "name": "Thinner",
+    "image": "https://i.ebayimg.com/images/g/vtkAAOSwsOZiS0Sr/s-l1600.jpg"
+  },
+  {
+    "name": "Cycle of the Werewolf",
+    "image": "https://m.media-amazon.com/images/I/71XbWSQLlrL._AC_UF1000,1000_QL80_.jpg"
+  },
+  {
     "name": "The Running Man",
-    "image": "https://example.com/the_running_man.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/35/Runningmanbachman.jpg/200px-Runningmanbachman.jpg"
   }
 ]

@@ -15,13 +15,66 @@ code {
 
 h1 {
   text-align: center;
-  font-size: 350%;
+  font-size: 390%;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  font-size: 110%;
 }
 
 .custom-container {
-  max-width: 98%;
+  max-width: 97%;
 }
 
+.slider-text {
+  text-align: center;
+  margin-top: -10px;
+  padding-bottom: 5px;
+  text-shadow:
+    -1px -1px 0 #ffffff80,
+    1px -1px 0 #ffffff80,
+    -1px 1px 0 #ffffff80,
+    1px 1px 0 #ffffff80;
+}
+
+
+.custom-search-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.slider-container {
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+  background-color: #edededfa;
+}
+
+.cover-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.filters-button {
+  --bs-bg-opacity: 0.9;
+  border: none;
+  font-size: 135%;
+}
+
+.close-button {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-left: -30px;
+
+}
 
 @font-face {
   font-family: 'Circular';
@@ -46,7 +99,11 @@ h1 {
 }
 
 .custom-card {
-  background-color: rgba(218, 218, 218, 0.868);
+  background-color: #dadadadd;
+}
+
+.custom-background {
+  background-color: #edededfa;
 }
 
 .text-with-outline {

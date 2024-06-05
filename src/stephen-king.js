@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+
 import {
   Container,
   ListGroup,
@@ -8,10 +9,16 @@ import {
   Col,
   Form,
 } from "react-bootstrap";
+
 import kingBooksData from "./stephen-king.json";
+import { Box, Slider, Typography } from "@mui/material";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faXmark } from "@fortawesome/free-solid-svg-icons";
 
 function KingBooks() {
   const [books, setBooks] = useState([]);
+  const [uniqueYears, setUniqueYears] = useState([]);
+  const [range, setRange] = useState([]);
 
   useEffect(() => {
     const fetchBooks = async () => {
@@ -39,6 +46,11 @@ function KingBooks() {
         });
 
         setBooks(updatedBooks);
+        const years = [
+          ...new Set(updatedBooks.map((book) => parseInt(book.Year))),
+        ];
+        setUniqueYears(years);
+        setRange([years[0], years[years.length - 1]]);
       } catch (error) {
         console.error("Произошла ошибка:", error);
       }
@@ -47,18 +59,25 @@ function KingBooks() {
     fetchBooks();
   }, []);
 
-  /* настройка фильтрации */
-  const uniqueYears = [...new Set(books.map((book) => book.Year))];
   const uniquePublishers = [...new Set(books.map((book) => book.Publisher))];
-  console.log(uniqueYears);
-  console.log(uniquePublishers);
 
-  const [selectedYear, setSelectedYear] = useState("");
+  const [searchTerm, setSearchTerm] = useState("");
   const [selectedPublisher, setSelectedPublisher] = useState("");
   const [showFilters, setShowFilters] = useState(false);
 
-  const handleSelectYear = (event) => {
-    setSelectedYear(event.target.value);
+  const handleSearch = (event) => {
+    setSearchTerm(event.target.value);
+  };
+
+  const clearSearch = () => {
+    setSearchTerm("");
+  };
+
+  const handleRangeChange = (e, newRange) => {
+    if (newRange[0] > newRange[1]) {
+      newRange.reverse();
+    }
+    setRange(newRange);
   };
 
   const handleSelectPublisher = (event) => {
@@ -71,7 +90,10 @@ function KingBooks() {
 
   const filteredBooks = books.filter((book) => {
     if (
-      (selectedYear === "" || book.Year.toString() === selectedYear) &&
+      book.Title.toLowerCase().includes(searchTerm.toLowerCase()) &&
+      ((range[0] === uniqueYears[0] &&
+        range[1] === uniqueYears[uniqueYears.length - 1]) ||
+        (book.Year >= range[0] && book.Year <= range[1])) &&
       (selectedPublisher === "" || book.Publisher === selectedPublisher)
     ) {
       return true;
@@ -84,26 +106,50 @@ function KingBooks() {
       <h1 className="text-with-outline benguiat-font mt-5 mb-4">
         Stephen King books
       </h1>
-      <Button
-        onClick={toggleFilters}
-        className="ms-2 bg-dark"
-        style={{
-          "--bs-bg-opacity": 0.7,
-          border: "none",
-          padding: "5px",
-        }}
-      >
-        Filters
-      </Button>
+      <Container className="custom-search-container benguiat-font">
+        <Form.Control
+          type="text"
+          placeholder="Search by title"
+          className="mt-3 mb-3"
+          onChange={handleSearch}
+        />
+        {searchTerm && (
+          <Button
+            variant="secondary"
+            className="close-button"
+            onClick={clearSearch}
+          >
+            <FontAwesomeIcon icon={faXmark} />
+          </Button>
+        )}
+        <Button
+          onClick={toggleFilters}
+          className="ms-2 py-1 px-4 benguiat-font bg-dark filters-button"
+        >
+          Filters
+        </Button>
+      </Container>
       {showFilters && (
         <div>
-          <Form.Select className="mt-3" onChange={handleSelectYear}>
-            <option value="">Year</option>
-            {uniqueYears.map((year) => (
-              <option key={year}>{year}</option>
-            ))}
-          </Form.Select>
-          <Form.Select className="mt-3" onChange={handleSelectPublisher}>
+          <div className="slider-container">
+            <Box sx={{ width: "100%" }}>
+              <Slider
+                sx={{ color: "#2f2d2d", height: 7 }}
+                getAriaLabel={() => "Year range"}
+                value={range}
+                onChange={handleRangeChange}
+                valueLabelDisplay="auto"
+                min={uniqueYears[0]}
+                max={uniqueYears[uniqueYears.length - 1]}
+                step={1}
+              />
+              <p className="benguiat-font slider-text">Release Date</p>
+            </Box>
+          </div>
+          <Form.Select
+            className="mt-3 benguiat-font custom-background"
+            onChange={handleSelectPublisher}
+          >
             <option value="">Publisher</option>
             {uniquePublishers.map((publisher) => (
               <option key={publisher}>{publisher}</option>
@@ -114,20 +160,30 @@ function KingBooks() {
       <ListGroup className="circular-font my-3">
         <Row>
           {filteredBooks.map((book, index) => (
-            <Col md={6} key={index}>
-              <Card className="px-5 py-3 m-2 custom-card">
+            <Col lg={4} md={6} sm={12} key={index}>
+              <Card className="px-4 py-3 m-2 custom-card">
+                <h2 className="benguiat-font mb-3">{book.Title}</h2>
                 <div style={{ display: "flex", alignItems: "center" }}>
                   {/* Левая часть с информацией */}
-                  <div style={{ flex: 1 }}>
-                    <h2>{book.Title}</h2>
-                    <p>Original Title: {book.Title}</p>
-                    <p>Release Date: {book.Year}</p>
-                    <p>Publisher: {book.Publisher}</p>
-                    <p>ISBN: {book.ISBN}</p>
-                    <p>Pages: {book.Pages}</p>
+                  <div className="mx-2" style={{ flex: 1 }}>
+                    <p>
+                      <strong>Original Title</strong>: {book.Title}
+                    </p>
+                    <p>
+                      <strong>Release Date:</strong> {book.Year}
+                    </p>
+                    <p>
+                      <strong>Publisher:</strong> {book.Publisher}
+                    </p>
+                    <p>
+                      <strong>ISBN:</strong> {book.ISBN}
+                    </p>
+                    <p>
+                      <strong>Pages:</strong> {book.Pages}
+                    </p>
                   </div>
                   {/* Правая часть с обложкой */}
-                  <div>
+                  <div className="mx-2">
                     <img
                       src={book.image}
                       alt={book.Title}
