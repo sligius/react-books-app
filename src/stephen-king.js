@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 
 import {
   Container,
@@ -19,6 +19,7 @@ function KingBooks() {
   const [books, setBooks] = useState([]);
   const [uniqueYears, setUniqueYears] = useState([]);
   const [range, setRange] = useState([]);
+  const initialLoad = useRef(true);
 
   useEffect(() => {
     const fetchBooks = async () => {
@@ -26,35 +27,35 @@ function KingBooks() {
         const response = await fetch(
           "https://stephen-king-api.onrender.com/api/books"
         );
+
         if (!response.ok) {
           throw new Error("Network response was not ok");
         }
-        const data = await response.json();
 
+        const data = await response.json();
         const updatedBooks = data.data.map((apiBook) => {
           const matchingJsonBook = kingBooksData.find(
             (jsonBook) => jsonBook.name === apiBook.Title
           );
-          if (matchingJsonBook && matchingJsonBook.image) {
-            return {
-              ...apiBook,
-              image: matchingJsonBook.image,
-            };
-          } else {
-            return apiBook;
-          }
+          return matchingJsonBook && matchingJsonBook.image
+            ? { ...apiBook, image: matchingJsonBook.image }
+            : apiBook;
         });
 
         setBooks(updatedBooks);
-        const years = [
-          ...new Set(updatedBooks.map((book) => parseInt(book.Year))),
-        ];
-        setUniqueYears(years);
-        setRange([years[0], years[years.length - 1]]);
+        if (initialLoad.current) {
+          const years = [
+            ...new Set(updatedBooks.map((book) => parseInt(book.Year))),
+          ];
+          setUniqueYears(years);
+          setRange([years[0], years[years.length - 1]]);
+          initialLoad.current = false;
+        }
       } catch (error) {
         console.error("Произошла ошибка:", error);
       }
     };
+
     fetchBooks();
   }, [books]);
 
