@@ -100,6 +100,7 @@ p {
 
 .custom-card {
   background-color: #dadadadd;
+  height: 95%;
 }
 
 .custom-background {
@@ -113,4 +114,19 @@ p {
     1px -1px 0 #b5b5b5de,
     -1px 1px 0 #b5b5b5de,
     1px 1px 0 #b5b5b5de;
+}
+
+.flex-style {
+  flex: 1;
+}
+
+img {
+  max-height: 250px;
+  max-width: 100%;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
 }

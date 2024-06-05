@@ -162,11 +162,11 @@ function KingBooks() {
         <Row>
           {filteredBooks.map((book, index) => (
             <Col lg={4} md={6} sm={12} key={index}>
-              <Card className="px-4 py-3 m-2 custom-card">
+              <Card className="px-4 py-3 mx-2 my-4 custom-card">
                 <h2 className="benguiat-font mb-3">{book.Title}</h2>
-                <div style={{ display: "flex", alignItems: "center" }}>
+                <div className="card-container">
                   {/* Левая часть с информацией */}
-                  <div className="mx-2" style={{ flex: 1 }}>
+                  <div className="mx-2 flex-style">
                     <p>
                       <strong>Original Title</strong>: {book.Title}
                     </p>
@@ -188,7 +188,6 @@ function KingBooks() {
                     <img
                       src={book.image}
                       alt={book.Title}
-                      style={{ maxHeight: "250px", maxWidth: "100%" }}
                     />
                   </div>
                 </div>
